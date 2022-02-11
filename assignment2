@@ -1,0 +1,47 @@
+sno=int(input('enter student number'))
+sname=input('enter sṭudent name')
+s1=int(input('enter s1 marks'))
+s2=int(input('enter s2 marks'))
+s3=int(input('enter s3 marks'))
+s4=int(input('enter s4 marks'))
+s5=int(input('enter s5 marks'))
+s6=int(input('enter s6 marks'))
+t=s1+s2+s3+s4+s5+s6
+print('total=',t)
+avg=t/6
+print('average',avg)
+if avg>=90:
+    print('o grade')
+elif avg>=80:
+    print('a grade')
+elif avg>=70:
+    print('b garde')
+elif avg>=60:
+    print('c grade')
+elif avg>=50:
+    print('d grade')
+elif avg>=40:
+    print('pass')
+elif avg>=30:
+    print('fail')
+
+output
+enter student number
+120127206024
+enter sṭudent name
+susmitha
+enter s1 marks
+90
+enter s2 marks
+80
+enter s3 marks
+80
+enter s4 marks
+90
+enter s5 marks
+87
+enter s6 marks
+80
+total= 507
+average 84.5
+a grade
